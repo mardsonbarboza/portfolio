@@ -1,11 +1,15 @@
 export function About() {
   const skills = [
-    "JavaScript (ES6+)",
+    "JavaScript",
     "TypeScript",
-    "React",
-    "Next.js",
     "Node.js",
-    "Tailwind CSS",
+    "NestJS",
+    "Prisma",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS S3",
+    "Docker",
+    "Git",
   ]
 
   return (
@@ -13,7 +17,7 @@ export function About() {
       <div className="max-w-4xl">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-lightest-slate whitespace-nowrap">
-            <span className="text-green font-mono text-2xl md:text-3xl">01.</span> About Me
+            <span className="text-green font-mono text-2xl md:text-3xl">01.</span> Sobre Mim
           </h2>
           <div className="h-px bg-lightest-navy w-full max-w-xs" />
         </div>
@@ -21,18 +25,17 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-4 text-slate">
             <p>
-              Hello! I&apos;m a passionate developer who enjoys creating things that live on
-              the internet. My interest in web development started back in 2015 when I
-              decided to try editing custom Tumblr themes — turns out hacking together
-              a custom reblog button taught me a lot about HTML &amp; CSS!
+              Olá! Sou técnico em Informática e graduando em Ciência da Computação pelo IFCE.
+              Minha jornada na programação começou em 2016, durante o ensino técnico, onde descobri
+              minha paixão por resolver problemas complexos através do código.
             </p>
             <p>
-              Fast-forward to today, and I&apos;ve had the privilege of working at an
-              advertising agency, a start-up, a huge corporation, and a student-led
-              design studio. My main focus these days is building accessible, inclusive
-              products and digital experiences.
+              Atualmente trabalho como Estagiário em Desenvolvimento Backend na Compass UOL,
+              onde desenvolvo APIs escaláveis e sistemas corporativos. Sou certificado AWS Cloud
+              Practitioner e especializado em arquiteturas limpas, modular e hexagonal,
+              seguindo princípios SOLID e Design Patterns.
             </p>
-            <p>Here are a few technologies I&apos;ve been working with recently:</p>
+            <p>Tecnologias que tenho trabalhado recentemente:</p>
 
             <ul className="grid grid-cols-2 gap-2 text-sm font-mono">
               {skills.map((skill) => (

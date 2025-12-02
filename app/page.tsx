@@ -21,7 +21,7 @@ export default function Home() {
       {/* Social links - left side */}
       <div className="hidden lg:flex fixed left-8 bottom-0 flex-col items-center gap-6 after:content-[''] after:block after:w-px after:h-24 after:bg-slate">
         <a
-          href="https://github.com"
+          href="https://github.com/mardson000"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate hover:text-green hover:-translate-y-1 transition-all duration-300"
@@ -65,7 +65,7 @@ export default function Home() {
           </svg>
         </a>
         <a
-          href="mailto:email@example.com"
+          href="mailto:mardson49@gmail.com"
           className="text-slate hover:text-green hover:-translate-y-1 transition-all duration-300"
         >
           <svg
@@ -89,11 +89,11 @@ export default function Home() {
       {/* Email - right side */}
       <div className="hidden lg:flex fixed right-8 bottom-0 flex-col items-center gap-6 after:content-[''] after:block after:w-px after:h-24 after:bg-slate">
         <a
-          href="mailto:email@example.com"
+          href="mailto:mardson49@gmail.com"
           className="text-slate hover:text-green font-mono text-sm tracking-widest hover:-translate-y-1 transition-all duration-300"
           style={{ writingMode: "vertical-rl" }}
         >
-          email@example.com
+          mardson49@gmail.com
         </a>
       </div>
     </div>

@@ -5,28 +5,33 @@ import type { Project } from "@/lib/github/types"
 // Fallback projects if GitHub API fails
 const fallbackProjects: Project[] = [
   {
-    title: "Featured Project 1",
+    title: "Sistema de Cadastro - IFCE Campus Canindé",
     description:
-      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
-    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    github: "https://github.com",
-    external: "https://example.com",
+      "Sistema completo para gerenciamento de projetos e acervos institucionais do IFCE. Implementa autenticação de usuários, sistema de permissões com níveis de acesso, aprovação de projetos com fluxo de qualidade, e integração entre múltiplas instituições. Desenvolvido com arquitetura limpa e hexagonal usando NestJS, TypeScript, Prisma e Next.js com Tailwind.",
+    tags: ["NestJS", "TypeScript", "Prisma", "Next.js", "PostgreSQL", "Tailwind CSS"],
+    github: "https://github.com/mardsonbarboza",
+    external: "#", // Link será adicionado quando o projeto estiver no ar
   },
   {
-    title: "Featured Project 2",
+    title: "API de Gerenciamento de Usuários",
     description:
-      "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, and npm.",
-    tags: ["VS Code", "Theme", "Design"],
-    github: "https://github.com",
-    external: "https://example.com",
+      "API REST completa para gerenciamento de usuários com operações CRUD. Implementa autenticação JWT, validação de dados, arquitetura limpa e hexagonal, e documentação completa. Desenvolvido com NestJS, Prisma ORM e PostgreSQL.",
+    tags: ["NestJS", "Prisma", "PostgreSQL", "JWT", "TypeScript"],
+    github: "https://github.com/mardsonbarboza/JWT-Auth-API",
   },
   {
-    title: "Featured Project 3",
+    title: "Sistema de Upload de Arquivos",
     description:
-      "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars.",
-    tags: ["Next.js", "GitHub API", "Chart.js"],
-    github: "https://github.com",
-    external: "https://example.com",
+      "Sistema modular para upload e armazenamento de imagens na AWS S3 com metadados no DynamoDB. Implementa processamento de imagens, validação de tipos, e arquitetura baseada em módulos com separação de responsabilidades.",
+    tags: ["AWS S3", "DynamoDB", "Node.js", "TypeScript"],
+    github: "https://github.com/mardsonbarboza",
+  },
+  {
+    title: "Sistema de E-commerce Store",
+    description:
+      "Backend para plataforma de e-commerce com manipulação de imagens, autenticação JWT, e camadas independentes de domínio e infraestrutura. Implementa padrões de design e arquitetura limpa.",
+    tags: ["Node.js", "TypeScript", "JWT", "PostgreSQL"],
+    github: "https://github.com/mardsonbarboza/ANJUN25_D03_COMPASSSTORE",
   },
 ]
 
@@ -159,7 +164,7 @@ export async function Work() {
       <div className="max-w-6xl w-full">
         <div className="flex items-center gap-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-lightest-slate whitespace-nowrap">
-            <span className="text-green font-mono text-2xl md:text-3xl">03.</span> Some Things I&apos;ve Built
+            <span className="text-green font-mono text-2xl md:text-3xl">03.</span> Projetos que Construí
           </h2>
           <div className="h-px bg-lightest-navy w-full max-w-xs" />
         </div>

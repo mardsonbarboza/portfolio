@@ -5,36 +5,17 @@ import { cn } from "@/lib/utils"
 
 const experiences = [
   {
-    company: "Company 1",
-    title: "Senior Software Engineer",
-    period: "Jan 2023 - Present",
-    url: "https://company1.com",
+    company: "Compass UOL",
+    title: "Estagiário em Desenvolvimento Backend",
+    period: "Junho/2025 - Presente",
+    url: "https://compass.uol",
     points: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems",
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-    ],
-  },
-  {
-    company: "Company 2",
-    title: "Software Engineer",
-    period: "May 2021 - Dec 2022",
-    url: "https://company2.com",
-    points: [
-      "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
-      "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
-      "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more",
-    ],
-  },
-  {
-    company: "Company 3",
-    title: "Junior Developer",
-    period: "Jan 2020 - Apr 2021",
-    url: "https://company3.com",
-    points: [
-      "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
-      "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
-      "Architected and implemented the front-end of Apple Music's Facebook app, which has millions of users",
+      "Desenvolvimento de sistema de upload de arquivos integrado ao AWS S3 e DynamoDB",
+      "Criação de sistema de usuários com autenticação e autorização em NestJS e TypeScript",
+      "Implementação de sistema de store com manipulação de imagens e integração com banco de dados relacional",
+      "Aplicação de arquitetura limpa, modular e hexagonal para garantir separação de responsabilidades e flexibilidade na evolução do sistema",
+      "Utilização de Prisma e Sequelize para modelagem e acesso a dados",
+      "Participação em revisões de código, integração contínua e metodologias ágeis",
     ],
   },
 ]
@@ -47,7 +28,7 @@ export function Experience() {
       <div className="max-w-4xl w-full">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-lightest-slate whitespace-nowrap">
-            <span className="text-green font-mono text-2xl md:text-3xl">02.</span> Where I&apos;ve Worked
+            <span className="text-green font-mono text-2xl md:text-3xl">02.</span> Onde Trabalhei
           </h2>
           <div className="h-px bg-lightest-navy w-full max-w-xs" />
         </div>
