@@ -29,7 +29,7 @@ export function Hero() {
           </Button>
           <div className="flex gap-4">
             <a
-              href="https://github.com/mardson000"
+              href="https://github.com/mardsonbarboza"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate hover:text-green transition-colors"
