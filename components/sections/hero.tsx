@@ -37,7 +37,7 @@ export function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mardson-barboza-7262b91b7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate hover:text-green transition-colors"

@@ -42,7 +42,7 @@ export default function Home() {
           </svg>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/mardson-barboza-7262b91b7"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate hover:text-green hover:-translate-y-1 transition-all duration-300"
