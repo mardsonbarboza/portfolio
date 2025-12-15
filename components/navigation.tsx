@@ -51,7 +51,7 @@ export function Navigation() {
                 activeSection === item.href.slice(1) ? "w-16" : "w-8 group-hover:w-16"
               )}
             />
-            <span className="text-xs font-mono uppercase tracking-widest writing-mode-vertical-rl rotate-180">
+            <span className="text-xs font-mono uppercase tracking-widest writing-mode-vertical-rl rotate-0">
               {item.name}
             </span>
           </a>
