@@ -10,6 +10,11 @@ export function About() {
     "AWS S3",
     "Docker",
     "Git",
+    "REST APIs",
+    "MysQL",
+    "Microservices",
+    "Clean Architecture",
+
   ]
 
   return (
@@ -30,7 +35,7 @@ export function About() {
               minha paixão por resolver problemas complexos através do código.
             </p>
             <p>
-              Atualmente trabalho como Estagiário em Desenvolvimento Backend na Compass UOL,
+              Atualmente estou procurando novas oportunidades como desenvolvedor backend,
               onde desenvolvo APIs escaláveis e sistemas corporativos. Sou certificado AWS Cloud
               Practitioner e especializado em arquiteturas limpas, modular e hexagonal,
               seguindo princípios SOLID e Design Patterns.

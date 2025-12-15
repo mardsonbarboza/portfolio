@@ -17,7 +17,8 @@ export function Hero() {
         <p className="text-slate text-lg md:text-xl max-w-2xl mb-12 leading-relaxed">
           Sou desenvolvedor backend especializado em Node.js e NestJS. Certificado AWS Cloud Practitioner
           com experiência em APIs escaláveis, bancos de dados e arquiteturas limpas.
-          Atualmente desenvolvendo sistemas corporativos na Compass UOL.
+          Atualmente estou procurando novas oportunidades para aplicar minhas habilidades
+          e crescer profissionalmente.
         </p>
         <div className="flex gap-6 items-center">
           <Button
